@@ -56,7 +56,7 @@ void AMovingPlatforms::RotatePlatform(float DeltaTime)
 	//check if it should counter rotate
 	//check if its rotated full 
 	//if it has change the roation direction
-	if (hasStartedRotating && HasMadeFullRotation())
+	if (hasStartedRotating && HasMadeFullRotation() && counterRotates)
 	{
 		platformRotation = platformRotation.GetInverse();
 	}
