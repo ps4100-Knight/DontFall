@@ -10,8 +10,8 @@ UCLASS()
 class DONTFALLCPP_API AMovingPlatforms : public AActor
 {
 	GENERATED_BODY()
-	
-public:	
+
+public:
 	// Sets default values for this actor's properties
 	AMovingPlatforms();
 
@@ -19,7 +19,7 @@ protected:
 	// Called when the game starts or when spawned
 	virtual void BeginPlay() override;
 
-public:	
+public:
 	// Called every frame
 	virtual void Tick(float DeltaTime) override;
 
@@ -27,15 +27,29 @@ public:
 		FVector startLocation;
 
 	UPROPERTY(EditAnywhere)
-		FVector platformVelocity = FVector(100,0,0);
+		FRotator startRotation;
+
+	UPROPERTY(EditAnywhere)
+		FVector platformVelocity = FVector(100, 0, 0);
 
 	UPROPERTY(EditAnywhere)
 		float moveDistance = 100;
 
 	UPROPERTY(EditAnywhere)
-		FRotator platformRotation;
+		bool returns = true;
 
-	
+	UPROPERTY(EditAnywhere)
+		bool counterRotates;
+
+	UPROPERTY(EditAnywhere)
+		bool hasStartedRotating;
+
+	UPROPERTY(EditAnywhere)
+		FRotator platformRotation;
+	//UPROPERTY(EditAnywhere)
+	//	bool displayDebug = false;
+
+
 
 public:
 	void MovePlatform(float DeltaTime);
@@ -45,4 +59,7 @@ public:
 	bool ShouldReturn() const;
 
 	float GetDistanceMoved() const;
+
+	bool HasMadeFullRotation() const;
+
 };
