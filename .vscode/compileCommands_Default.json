@@ -1,0 +1,67 @@
+[
+	{
+		"file": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Source\\DontFallCPP\\DontFallCPP.Build.cs",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\PortfolioRepos\\DontFallCPP\\DontFall\\.vscode\\compileCommands_Default\\DontFallCPP.211.rsp",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Source\\DontFallCPP\\DontFallCPP.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\PortfolioRepos\\DontFallCPP\\DontFall\\.vscode\\compileCommands_Default\\DontFallCPP.211.rsp",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Source\\DontFallCPP\\DontFallCPP.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\PortfolioRepos\\DontFallCPP\\DontFall\\.vscode\\compileCommands_Default\\DontFallCPP.211.rsp",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Source\\DontFallCPP\\DontFallCPPCharacter.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\PortfolioRepos\\DontFallCPP\\DontFall\\.vscode\\compileCommands_Default\\DontFallCPP.211.rsp",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Source\\DontFallCPP\\DontFallCPPCharacter.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\PortfolioRepos\\DontFallCPP\\DontFall\\.vscode\\compileCommands_Default\\DontFallCPP.211.rsp",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Source\\DontFallCPP\\DontFallCPPGameMode.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\PortfolioRepos\\DontFallCPP\\DontFall\\.vscode\\compileCommands_Default\\DontFallCPP.211.rsp",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Source\\DontFallCPP\\DontFallCPPGameMode.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\PortfolioRepos\\DontFallCPP\\DontFall\\.vscode\\compileCommands_Default\\DontFallCPP.211.rsp",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Source\\DontFallCPP\\Interactor.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\PortfolioRepos\\DontFallCPP\\DontFall\\.vscode\\compileCommands_Default\\DontFallCPP.211.rsp",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Source\\DontFallCPP\\Interactor.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\PortfolioRepos\\DontFallCPP\\DontFall\\.vscode\\compileCommands_Default\\DontFallCPP.211.rsp",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Source\\DontFallCPP\\MovingPlatforms.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\PortfolioRepos\\DontFallCPP\\DontFall\\.vscode\\compileCommands_Default\\DontFallCPP.211.rsp",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Source\\DontFallCPP\\MovingPlatforms.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\PortfolioRepos\\DontFallCPP\\DontFall\\.vscode\\compileCommands_Default\\DontFallCPP.211.rsp",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Source\\DontFallCPP\\WallMover.cpp",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\PortfolioRepos\\DontFallCPP\\DontFall\\.vscode\\compileCommands_Default\\DontFallCPP.211.rsp",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Source\\DontFallCPP\\WallMover.h",
+		"command": "\"C:\\Program Files (x86)\\Microsoft Visual Studio\\2019\\Community\\VC\\Tools\\MSVC\\14.29.30133\\bin\\HostX64\\x64\\cl.exe\" @D:\\PortfolioRepos\\DontFallCPP\\DontFall\\.vscode\\compileCommands_Default\\DontFallCPP.211.rsp",
+		"directory": "D:\\UE_5.0\\Engine\\Source"
+	}
+]

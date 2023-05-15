@@ -1,0 +1,152 @@
+{
+	"version": "0.2.0",
+	"configurations": [
+		{
+			"name": "Launch DontFallCPP (Debug)",
+			"request": "launch",
+			"program": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Binaries\\Win64\\UnrealGame-Win64-Debug.exe",
+			"preLaunchTask": "DontFallCPP Win64 Debug Build",
+			"args": [
+			],
+			"cwd": "D:\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch DontFallCPP (DebugGame)",
+			"request": "launch",
+			"program": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Binaries\\Win64\\UnrealGame-Win64-DebugGame.exe",
+			"preLaunchTask": "DontFallCPP Win64 DebugGame Build",
+			"args": [
+			],
+			"cwd": "D:\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch DontFallCPP (Development)",
+			"request": "launch",
+			"program": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Binaries\\Win64\\UnrealGame.exe",
+			"preLaunchTask": "DontFallCPP Win64 Development Build",
+			"args": [
+			],
+			"cwd": "D:\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch DontFallCPP (Test)",
+			"request": "launch",
+			"program": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Binaries\\Win64\\UnrealGame-Win64-Test.exe",
+			"preLaunchTask": "DontFallCPP Win64 Test Build",
+			"args": [
+			],
+			"cwd": "D:\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch DontFallCPP (Shipping)",
+			"request": "launch",
+			"program": "D:\\PortfolioRepos\\DontFallCPP\\DontFall\\Binaries\\Win64\\UnrealGame-Win64-Shipping.exe",
+			"preLaunchTask": "DontFallCPP Win64 Shipping Build",
+			"args": [
+			],
+			"cwd": "D:\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch DontFallCPPEditor (Debug)",
+			"request": "launch",
+			"program": "D:\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-Debug.exe",
+			"preLaunchTask": "DontFallCPPEditor Win64 Debug Build",
+			"args": [
+				"D:\\PortfolioRepos\\DontFallCPP\\DontFall\\DontFallCPP.uproject"
+			],
+			"cwd": "D:\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch DontFallCPPEditor (DebugGame)",
+			"request": "launch",
+			"program": "D:\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor-Win64-DebugGame.exe",
+			"preLaunchTask": "DontFallCPPEditor Win64 DebugGame Build",
+			"args": [
+				"D:\\PortfolioRepos\\DontFallCPP\\DontFall\\DontFallCPP.uproject"
+			],
+			"cwd": "D:\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\UE_5.0"
+			}
+		},
+		{
+			"name": "Launch DontFallCPPEditor (Development)",
+			"request": "launch",
+			"program": "D:\\UE_5.0\\Engine\\Binaries\\Win64\\UnrealEditor.exe",
+			"preLaunchTask": "DontFallCPPEditor Win64 Development Build",
+			"args": [
+				"D:\\PortfolioRepos\\DontFallCPP\\DontFall\\DontFallCPP.uproject"
+			],
+			"cwd": "D:\\UE_5.0",
+			"stopAtEntry": false,
+			"console": "externalTerminal",
+			"type": "cppvsdbg",
+			"visualizerFile": "D:\\UE_5.0\\Engine\\Extras\\VisualStudioDebugging\\Unreal.natvis",
+			"sourceFileMap": {
+				"D:\build\++UE5\Sync": "D:\\UE_5.0"
+			}
+		},
+		{
+			"name": "Generate Project Files",
+			"type": "coreclr",
+			"request": "launch",
+			"program": "D:\\UE_5.0\\Engine\\Binaries\\DotNET\\UnrealBuildTool\\UnrealBuildTool",
+			"args": [
+				"-projectfiles",
+				"-vscode",
+				"-project=D:\\PortfolioRepos\\DontFallCPP\\DontFall\\DontFallCPP.uproject",
+				"-game",
+				"-engine"
+			],
+			"console": "externalTerminal",
+			"stopAtEntry": false,
+			"cwd": "D:\\UE_5.0"
+		}
+	]
+}
