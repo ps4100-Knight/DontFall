@@ -4,7 +4,10 @@
 
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
+#include "Switch.h"
 #include "WallMover.generated.h"
+
+
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
@@ -19,6 +22,12 @@ public:
 protected:
 	// Called when the game starts
 	virtual void BeginPlay() override;
+
+	UPROPERTY(EditAnywhere)
+	TArray<ASwitch*> Buttons;
+
+	UPROPERTY(EditAnywhere)
+	bool check = false;
 
 public:	
 	// Called every frame

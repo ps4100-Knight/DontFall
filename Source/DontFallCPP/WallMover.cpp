@@ -30,6 +30,19 @@ void UWallMover::BeginPlay()
 void UWallMover::TickComponent(float DeltaTime, ELevelTick TickType, FActorComponentTickFunction* ThisTickFunction)
 {
 	Super::TickComponent(DeltaTime, TickType, ThisTickFunction);
+
+	for(ASwitch* Switch : Buttons)
+	{
+		if(Switch->IsActivated)
+		{
+			ShouldMove = true;
+		}
+		else
+		{
+			ShouldMove = false;
+		}
+	}
+
 	if(ShouldMove)
 	{
 		FVector CurrentLocation = GetOwner()->GetActorLocation();

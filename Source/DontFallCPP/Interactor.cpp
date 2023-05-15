@@ -40,7 +40,7 @@ void UInteractor::Interaction(AActor*& HitActor)
 {
 	FVector Start = GetComponentLocation();
 	FVector End	= Start + GetForwardVector() * MaxDistance;
-//	DrawDebugLine(GetWorld(), Start, End, FColor::Red);
+	DrawDebugLine(GetWorld(), Start, End, FColor::Red);
 
 	FCollisionShape Sphear = FCollisionShape::MakeSphere(InteractRadius);
 	FHitResult HitResult;
